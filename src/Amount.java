@@ -1,8 +1,8 @@
 public class Amount {
     private double amount;
-    private String transactionType; //type of transaction "deposit" or "withdraw"
+    private String transactionType;
 
-    public Amount(double amount, String transactionType) { //constructor allows to prepare an instance so that it is ready to use the moment it is needed
+    public Amount(double amount, String transactionType) {
         this.amount = amount;
         this.transactionType = transactionType;
     }
@@ -14,3 +14,4 @@ public class Amount {
         return transactionType;
     }
 }
+
